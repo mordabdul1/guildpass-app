@@ -1,8 +1,6 @@
 node_modules
 dist
 .DS_Store
-.env
-.env.local
 .docusaurus
 build
 coverage
@@ -15,3 +13,4 @@ apps/docs/build
 # Next.js build output
 .next/
 apps/dashboard/.next/
+config.bat
