@@ -9,9 +9,9 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "pnpm --filter @guildpass/dashboard dev",
-    "build": "pnpm --filter @guildpass/dashboard build",
-    "start": "pnpm --filter @guildpass/dashboard start",
+    "dev": "node api.js && pnpm --filter @guildpass/dashboard dev",
+    "build": "node api.js && pnpm --filter @guildpass/dashboard build",
+    "start": "node api.js && pnpm --filter @guildpass/dashboard start",
     "typecheck": "pnpm -r typecheck",
     "lint": "pnpm -r lint",
     "test": "pnpm -r test",

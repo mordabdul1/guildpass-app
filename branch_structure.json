@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feat/multi-tenant-repo-isolation",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "feat/multi-tenant-repo-isolation": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "feat/multi-tenant-repo-isolation",
+    "origin"
+  ]
+}
